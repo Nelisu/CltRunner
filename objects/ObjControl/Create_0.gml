@@ -1,5 +1,5 @@
 randomize();
-alarm[0] = irandom_range(20, 180);
+alarm[0] = irandom_range(1, 3) * 60;
 if !audio_is_playing(SndBackground){
     audio_play_sound(SndBackground, 100, 1);
 }

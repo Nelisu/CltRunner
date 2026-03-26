@@ -13,9 +13,11 @@ else if _Right{
 var _Food = instance_place(x, y, ObjFood);
 if _Food{
     audio_play_sound(SndPickup, 0, 0);
+    global.Pontos += 50;
     instance_destroy(_Food);
 }
 
 if place_meeting(x, y, ObjClt){
+    global.Pontos = 0;
     room_restart();
 }

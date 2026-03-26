@@ -10,9 +10,11 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BackGround","folderPath":"folders/Sprites/BackGround.yy","name":"BackGround","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -28,6 +30,7 @@
   },
   "name":"CltRunner",
   "resources":[
+    {"id":{"name":"FntArialBlack","path":"fonts/FntArialBlack/FntArialBlack.yy",},},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"ObjClt","path":"objects/ObjClt/ObjClt.yy",},},
     {"id":{"name":"ObjControl","path":"objects/ObjControl/ObjControl.yy",},},
@@ -37,6 +40,7 @@
     {"id":{"name":"ObjTeste","path":"objects/ObjTeste/ObjTeste.yy",},},
     {"id":{"name":"Rm1","path":"rooms/Rm1/Rm1.yy",},},
     {"id":{"name":"RmStartCutscene","path":"rooms/RmStartCutscene/RmStartCutscene.yy",},},
+    {"id":{"name":"ScrGlobals","path":"scripts/ScrGlobals/ScrGlobals.yy",},},
     {"id":{"name":"SndBackground","path":"sounds/SndBackground/SndBackground.yy",},},
     {"id":{"name":"SndPickup","path":"sounds/SndPickup/SndPickup.yy",},},
     {"id":{"name":"Page01","path":"sprites/Page01/Page01.yy",},},
