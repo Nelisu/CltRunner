@@ -6,6 +6,8 @@ x = Pos[_Rand];
 image_xscale = 1 - 2 * _Rand;
 
 Sprites = [SprBatata, SprChocolate, SprCoxinha, SprHamburger];
+SpritesOutline = [SprBatataOutline, SprChocolateOutline, SprCoxinhaOutline, SprHamburgerOutline];
 var _Random = irandom(3);
-sprite_index = Sprites[_Random];
-mask_index = Sprites[_Random];
+Index = _Random;
+sprite_index = SpritesOutline[_Random];
+mask_index = SpritesOutline[_Random];
