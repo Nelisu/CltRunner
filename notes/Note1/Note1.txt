@@ -1,0 +1,2 @@
+x esquerdo do player : 16
+x direito do player : 164
