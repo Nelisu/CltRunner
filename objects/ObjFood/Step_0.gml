@@ -1,4 +1,4 @@
-y += 1;
+y += 1 * global.GameSpeed;
 
 if y > room_height + sprite_height{
     instance_destroy();

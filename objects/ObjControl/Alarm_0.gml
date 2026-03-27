@@ -1,9 +1,9 @@
 var _Random = irandom(9);
-if _Random > 2{
+if _Random > global.Difficulty{
     instance_create_layer(x, y, "Pickups", ObjFood);
 }
 else{
      instance_create_layer(x, y, "Pickups", ObjClt);
 }
 
-alarm[0] = irandom_range(1, 3) * 60;
+alarm[0] = irandom_range(1, 3) * 60 / global.Difficulty;
